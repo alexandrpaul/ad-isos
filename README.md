@@ -27,8 +27,8 @@ This project shows my practical experience working with **Active Directory**, in
 
 ## Tasks for this project
 
-### 1. User Account Creation
-Provisioned a new user in Active Directory and placed it in the appropriate Organizational Unit (OU) to maintain proper directory structure.
+### 1. New User Provisioning in Active Directory
+Created and configured a new user account in **Active Directory**, assigning it to the appropriate **Organizational Unit (OU)** to ensure proper directory structure and policy alignment.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img1.png)
 
@@ -41,43 +41,42 @@ Executed a secure password reset for a user, simulating a standard Help Desk sup
 
 
 
-### 3. Account Lockout Resolution
-Restored access for a locked-out account following multiple failed login attempts, ensuring continuity of operations.
+### 3. Account Unlock and Access Restoration
+Restored a locked-out user account after multiple failed login attempts, maintaining operational continuity and system access integrity.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img3.png)
 
 
 
-### 4. Account Disable/Enable
-Temporarily disabled a user account to restrict access, then re-enabled it in alignment with administrative requirements.
+### 4. User Account Access Management
+Temporarily disabled the user account to enforce access restrictions, then restored access in accordance with administrative policies.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img4.png)
 
 
 
 ### 5. Security Group Assignment
-Assigned a user to a security group, granting access to necessary shared resources while maintaining proper permissions management.
+Assigned the user to the appropriate **security group**, ensuring access to required shared resources while maintaining strict **permissions management**.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img5.png)
 
 
 
 ### 6. Organizational Unit Management
-Moved a user between Organizational Units to optimize directory organization and enforce policy alignment.
-
+Optimized structure by relocating a user to the correct Organizational Unit, ensuring compliance with policy and maintaining directory efficiency.
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img6.png)
 
 
 
 ### 7. Login Audit via Event Viewer
-Monitored and analyzed user login activity to identify access patterns and detect any unusual or failed login attempts.
+Monitored user authentication activity to identify access trends and detect anomalies or failed login attempts.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img7.png)
 
 
 
 ### 8. Group Policy Object (GPO) Deployment
-Created and linked a custom Group Policy Object (GPO) to a targeted OU to enforce administrative and security settings.
+Deployed a custom **Group Policy Object (GPO)** and linked it to the designated **Organizational Unit (OU)** to enforce standardized administrative controls and security configurations.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img8.1.png)
 
@@ -88,14 +87,14 @@ Created and linked a custom Group Policy Object (GPO) to a targeted OU to enforc
 
 
 ### 9. Password Policy Enforcement
-Implemented organization-wide password policies for complexity, length, and expiration via GPO to strengthen security posture.
+Configured organization-wide password requirements, including complexity, length, and expiration, using **Group Policy Objects (GPOs)** to strengthen overall security.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img9.png)
 
 
 
 ### 10. Logon Banner Configuration
-Configured a logon banner through GPO to display corporate policy and compliance messaging prior to user authentication.
+Implemented a Group Policy logon banner to display corporate policy and compliance messaging prior to user authentication, ensuring users are informed of organizational standards before access.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img10.1.png)
 

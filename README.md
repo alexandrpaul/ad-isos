@@ -69,7 +69,7 @@ Optimized structure by relocating a user to the correct Organizational Unit, ens
 
 
 ### 7. Login Audit via Event Viewer
-Monitored user authentication activity to identify access trends and detect anomalies or failed login attempts.
+Monitored and analyzed user login activity to identify access patterns and detect any unusual or failed login attempts.
 
 ![Screenshot](https://github.com/alexandrpaul/ad-helpdesk/blob/9ea851dadf4227b532149446dca035605384d545/Screenshots/img7.png)
 
